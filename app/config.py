@@ -2,7 +2,7 @@ from pydantic_settings import BaseSettings
 
 
 class WebSettings(BaseSettings):
-    api_url: str = "http://localhost:8083/serve/news-classifier"
+    api_url: str = "http://localhost:8082/serve/news-classifier"
     timeout: int = 10
 
     app_port: int = 7860
